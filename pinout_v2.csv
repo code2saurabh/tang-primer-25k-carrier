@@ -1,0 +1,121 @@
+connector,pin,signal,fpga_ball,bank,bank_voltage,special_function,schematic_ball,spec_vs_schematic,dock_usage,v1_net,v1_correct,note,source
+J1,1,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p8; core sch p3/p5
+J1,2,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p9; core sch p3/p5
+J1,3,IOT31A,L9,0,Depend on VCCIO0/1,,L9,yes,,IOT31A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,4,IOT61A,H5,1,Depend on VCCIO0/1,GCLKT_2/TPLL_T_IN0,H5,yes,,IOT61A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,5,IOT31B,K9,0,Depend on VCCIO0/1,,K9,yes,,IOT31B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,6,IOT61B,J5,1,Depend on VCCIO0/1,GCLKC_2,J5,yes,,IOT61B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,7,IOT56A,J8,0,Depend on VCCIO0/1,GCLKT_0/TPLL_T_IN1,J8,yes,,UART_TX,yes,v1 used this pin as UART; Sipeed's UART is IOB56A/IOB56B (J1.19/J1.21),Spec V1.0 p8; core sch p3/p5
+J1,8,IOT63A,L5,1,Depend on VCCIO0/1,GCLKT_3/RPLL0_T_IN0,L5,yes,,IOT63A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,9,IOT56B,K8,0,Depend on VCCIO0/1,GCLKC_0/TPLL_C_FB1,K8,yes,,UART_RX,yes,v1 used this pin as UART; Sipeed's UART is IOB56A/IOB56B (J1.19/J1.21),Spec V1.0 p8; core sch p3/p5
+J1,10,IOT63B,K5,1,Depend on VCCIO0/1,GCLKC_3,K5,yes,,IOT63B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,11,IOT58A,F7,0,Depend on VCCIO0/1,GCLKT_1/TPLL_T_IN2,F7,yes,,IOT58A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,12,IOT66A,H8,1,Depend on VCCIO0/1,,H8,yes,,IOT66A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,13,IOT58B,F6,0,Depend on VCCIO0/1,GCLKC_1/TPLL_C_FB0,F6,yes,,GND,NO,v1 netlist has 'GND' here,Spec V1.0 p8; core sch p3/p5
+J1,14,IOT66B,H7,1,Depend on VCCIO0/1,,H7,yes,,IOT66B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,15,GND,,,,,,n/a,,IOT58B,NO,v1 netlist has 'IOT58B' here,Spec V1.0 p8; core sch p3/p5
+J1,16,IOT68A,G7,1,Depend on VCCIO0/1,,G7,yes,,IOT68A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,17,READY,E8,4,3.3V,READY,E8,yes,Dock: 49.9k pull-up to 3V3 + LED via 49.9k,READY,yes,,Spec V1.0 p8; core sch p3/p5
+J1,18,IOT68B,G8,1,Depend on VCCIO0/1,,G8,yes,,IOT68B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,19,IOB56A,B3,4,3.3V,,B3,yes,Dock: FPGA_UART_RX (to BL616 debugger),IOB56A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,20,IOT72A,F5,1,Depend on VCCIO0/1,,F5,yes,,IOT72A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,21,IOB56B,C3,4,3.3V,,C3,yes,Dock: FPGA_UART_TX (to BL616 debugger),IOB56B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,22,IOT72B,G5,1,Depend on VCCIO0/1,,G5,yes,,IOT72B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,23,IOB60A,E3,4,3.3V,,E3,yes,,IOB60A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,24,VCCIO0/1 Input,,,,,,n/a,Dock: from module VDD_3V3 via ferrite bead,+3V3,yes,,Spec V1.0 p9; core sch p3/p5
+J1,25,DONE,D7,4,3.3V,DONE,D7,yes,Dock: 49.9k pull-up to 3V3 + LED via 49.9k,DONE,yes,,Spec V1.0 p8; core sch p3/p5
+J1,26,VCCIO0/1 Input,,,,,,n/a,Dock: from module VDD_3V3 via ferrite bead,+3V3,yes,,Spec V1.0 p9; core sch p3/p5
+J1,27,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p8; core sch p3/p5
+J1,28,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p9; core sch p3/p5
+J1,29,VCCIO6/7 Input,,,,,,n/a,Dock: from module VDD_3V3 via ferrite bead,+3V3,yes,,Spec V1.0 p8; core sch p3/p5
+J1,30,IOT23A,L6,7,Depend on VCCIO6/7,,L6,yes,Dock: USB-A host D+,IOT23A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,31,VCCIO6/7 Input,,,,,,n/a,Dock: from module VDD_3V3 via ferrite bead,+3V3,yes,,Spec V1.0 p8; core sch p3/p5
+J1,32,IOT23B,K6,7,Depend on VCCIO6/7,,K6,yes,Dock: USB-A host D-,IOT23B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,33,IOT1A,J11,7,Depend on VCCIO6/7,GCLKT_15/LPLL0_T_IN0,J11,yes,,IOT1A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,34,IOT21A,K7,7,Depend on VCCIO6/7,,K7,yes,,IOT21A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,35,IOT1B,J10,7,Depend on VCCIO6/7,GCLKC_15,J10,yes,,IOT1B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,36,IOT21B,J7,7,Depend on VCCIO6/7,,J7,yes,,IOT21B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,37,IOT3A,H11,7,Depend on VCCIO6/7,GCLKT_16,H11,yes,Dock: button S1,IOT3A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,38,IOT19A,L7,7,Depend on VCCIO6/7,,L7,yes,,IOT19A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,39,IOT3B,H10,7,Depend on VCCIO6/7,GCLKC_16,H10,yes,Dock: button S2,IOT3B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,40,IOT19B,L8,7,Depend on VCCIO6/7,,L8,yes,,IOT19B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,41,IOT7A,G11,7,Depend on VCCIO6/7,,G11,yes,,IOT7A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,42,IOT15A,L10,7,Depend on VCCIO6/7,,L10,yes,,IOT15A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,43,IOT7B,G10,7,Depend on VCCIO6/7,,G10,yes,,IOT7B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,44,IOT15B,K10,7,Depend on VCCIO6/7,,K10,yes,,IOT15B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,45,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p8; core sch p3/p5
+J1,46,IOT11A,K11,7,Depend on VCCIO6/7,,K11,yes,,IOT11A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,47,IOL9A,D11,6,Depend on VCCIO6/7,,D11,yes,,IOL9A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,48,IOT11B,L11,7,Depend on VCCIO6/7,,L11,yes,,IOT11B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,49,IOL9B,D10,6,Depend on VCCIO6/7,,D10,yes,,IOL9B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,50,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p9; core sch p3/p5
+J1,51,IOL5A,C11,6,Depend on VCCIO6/7,GCLKT_13/LPLL0_T_IN1,C11,yes,,IOL5A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,52,IOL3A,E11,6,Depend on VCCIO6/7,GCLKT_14A/LPLL0_T_IN2/LPLL1B_T_IN0,E11,yes,,IOL3A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,53,IOL5B,C10,6,Depend on VCCIO6/7,GCLKC_13/LPLL0_C_FB1,C10,yes,,IOL5B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,54,IOL3B,E10,6,Depend on VCCIO6/7,GCLKC_14/LPLL0_C_FB0,E10,yes,,IOL3B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,55,IOL12A,B11,6,Depend on VCCIO6/7,,B11,yes,,IOL12A,yes,,Spec V1.0 p8; core sch p3/p5
+J1,56,IOL14A,A11,6,Depend on VCCIO6/7,LPLL1A_T_IN0,A11,yes,,IOL14A,yes,,Spec V1.0 p9; core sch p3/p5
+J1,57,IOL12B,B10,6,Depend on VCCIO6/7,,B10,yes,,IOL12B,yes,,Spec V1.0 p8; core sch p3/p5
+J1,58,IOL14B,A10,6,Depend on VCCIO6/7,,A10,yes,,IOL14B,yes,,Spec V1.0 p9; core sch p3/p5
+J1,59,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p8; core sch p3/p5
+J1,60,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p9; core sch p3/p5
+J2,1,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,2,VCCIO2/3 Input,,,,,,n/a,Dock: from module VDD_3V3 via ferrite bead,+3V3,yes,,Spec V1.0 p7; core sch p3/p5
+J2,3,IOB4A,B2,5,3.3V,LPLL1_T_FB0,B2,yes,,IOB4A,yes,,Spec V1.0 p6; core sch p3/p5
+J2,4,VCCIO2/3 Input,,,,,,n/a,Dock: from module VDD_3V3 via ferrite bead,+3V3,yes,,Spec V1.0 p7; core sch p3/p5
+J2,5,IOB4B,C2,5,3.3V,,C2,yes,,IOB4B,yes,,Spec V1.0 p6; core sch p3/p5
+J2,6,IOR18A,L2,2,Depend on VCCIO2/3,,L2,yes,,IOR18A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,7,IOB26A,F2,5,3.3V,GCLKT_12,F2,yes,,IOB26A,yes,,Spec V1.0 p6; core sch p3/p5
+J2,8,IOR18B,L1,2,Depend on VCCIO2/3,,L1,yes,,IOR18B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,9,IOB26B,F1,5,3.3V,GCLKC_12,F1,yes,,IOB26B,yes,,Spec V1.0 p6; core sch p3/p5
+J2,10,IOR20A,K1,2,Depend on VCCIO2/3,,K1,yes,,IOR20A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,11,IOB24A,A1,5,3.3V,,A1,yes,,IOB24A,yes,,Spec V1.0 p6; core sch p3/p5
+J2,12,IOR20B,K2,2,Depend on VCCIO2/3,,K2,yes,,IOR20B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,13,RECONFIG,D8,5,3.3V,RECONFIG,D8,yes,Dock: not connected (internal pull-up),RECONFIG,yes,,Spec V1.0 p6; core sch p3/p5
+J2,14,IOR22A,J4,2,Depend on VCCIO2/3,,J4,yes,,IOR22A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,15,IOB12B,E1,5,3.3V,GCLKC_10B/LPLL1_C_IN1,E1,yes,,IOB12B,yes,,Spec V1.0 p6; core sch p3/p5
+J2,16,IOR22B,K4,2,Depend on VCCIO2/3,,K4,yes,,IOR22B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,17,IOB14B,D1,5,3.3V,CLKHOLD_N,D1,yes,,IOB14B,yes,,Spec V1.0 p6; core sch p3/p5
+J2,18,IOR24A,G2,2,Depend on VCCIO2/3,RPLL1B_T_IN0,G2,yes,,IOR24A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,19,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,20,IOR24B,G1,2,Depend on VCCIO2/3,,G1,yes,,IOR24B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,21,JTAG_TCK,C1,10,3.3V,JTAG_TCK,C1,yes,Dock: 5.1k pull-down + BL616 JTAG,JTAG_TCK,yes,,Spec V1.0 p6; core sch p3/p5
+J2,22,IOR31A,L4,2,Depend on VCCIO2/3,GCLKT_4/RPLL1A_T_IN0,L4,yes,,IOR31A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,23,JTAG_TMS,B1,10,3.3V,JTAG_TMS,B1,yes,Dock: BL616 JTAG,JTAG_TMS,yes,,Spec V1.0 p6; core sch p3/p5
+J2,24,IOR31B,L3,2,Depend on VCCIO2/3,GCLKC_4/RPLL1_C_FB1,L3,yes,,IOR31B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,25,JTAG_TDO,A2,10,3.3V,JTAG_TDO,A2,yes,Dock: BL616 JTAG,JTAG_TDO,yes,,Spec V1.0 p6; core sch p3/p5
+J2,26,IOR33A,J1,2,Depend on VCCIO2/3,GCLKT_5/RPLL1_T_IN1,J1,yes,,IOR33A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,27,JTAG_TDI,A3,10,3.3V,JTAG_TDI,A3,yes,Dock: BL616 JTAG,JTAG_TDI,yes,,Spec V1.0 p6; core sch p3/p5
+J2,28,IOR33B,J2,2,Depend on VCCIO2/3,GCLKC_5/RPLL1_C_FB0,J2,yes,,IOR33B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,29,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,30,IOB89A,G4,3,Depend on VCCIO2/3,GCLKT_7/BPLL_T_IN0,G4,yes,,IOB89A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,31,MIPI_D3_P,,,,,,n/a,,M0_D3P,yes,,Spec V1.0 p6; core sch p3/p5
+J2,32,IOB89B,H4,3,Depend on VCCIO2/3,GCLKC_7,H4,yes,,IOB89B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,33,MIPI_D3_N,,,,,,n/a,,M0_D3N,yes,,Spec V1.0 p6; core sch p3/p5
+J2,34,IOB91A,H1,3,Depend on VCCIO2/3,GCLKT_6A,H1,yes,,IOB91A,yes,,Spec V1.0 p7; core sch p3/p5
+J2,35,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,36,IOB91B,H2,3,Depend on VCCIO2/3,GCLKC_6A,H2,yes,,IOB91B,yes,,Spec V1.0 p7; core sch p3/p5
+J2,37,MIPI_D2_P,,,,,,n/a,,M0_D2P,yes,,Spec V1.0 p6; core sch p3/p5
+J2,38,VDD_1V8 Output,,,,,,n/a,,VDD_1V8,yes,,Spec V1.0 p7; core sch p3/p5
+J2,39,MIPI_D2_N,,,,,,n/a,,M0_D2N,yes,,Spec V1.0 p6; core sch p3/p5
+J2,40,VDD_1V8 Output,,,,,,n/a,,VDD_1V8,yes,,Spec V1.0 p7; core sch p3/p5
+J2,41,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,42,VDD_2V5 Output,,,,,,n/a,,VDD_2V5,yes,,Spec V1.0 p7; core sch p3/p5
+J2,43,MIPI_CK_P,,,,,,n/a,,M0_CKP,yes,,Spec V1.0 p6; core sch p3/p5
+J2,44,VDD_2V5 Output,,,,,,n/a,,VDD_2V5,yes,,Spec V1.0 p7; core sch p3/p5
+J2,45,MIPI_CK_N,,,,,,n/a,,M0_CKN,yes,,Spec V1.0 p6; core sch p3/p5
+J2,46,VDD_3V3 Output,,,,,,n/a,,VDD_3V3O,yes,,Spec V1.0 p7; core sch p3/p5
+J2,47,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,48,VDD_3V3 Output,,,,,,n/a,,VDD_3V3O,yes,,Spec V1.0 p7; core sch p3/p5
+J2,49,MIPI_D1_P,,,,,,n/a,,M0_D1P,yes,,Spec V1.0 p6; core sch p3/p5
+J2,50,VDD_3V3 Output,,,,,,n/a,,VDD_3V3O,yes,,Spec V1.0 p7; core sch p3/p5
+J2,51,MIPI_D1_N,,,,,,n/a,,M0_D1N,yes,,Spec V1.0 p6; core sch p3/p5
+J2,52,VDD_5V0 Input,,,,,,n/a,Dock: USB-C VBUS via 2A fuse,+5V,yes,,Spec V1.0 p7; core sch p3/p5
+J2,53,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,54,VDD_5V0 Input,,,,,,n/a,Dock: USB-C VBUS via 2A fuse,+5V,yes,,Spec V1.0 p7; core sch p3/p5
+J2,55,MIPI_D0_P,,,,,,n/a,,M0_D0P,yes,,Spec V1.0 p6; core sch p3/p5
+J2,56,VDD_5V0 Input,,,,,,n/a,Dock: USB-C VBUS via 2A fuse,+5V,yes,,Spec V1.0 p7; core sch p3/p5
+J2,57,MIPI_D0_N,,,,,,n/a,,M0_D0N,yes,,Spec V1.0 p6; core sch p3/p5
+J2,58,VDD_5V0 Input,,,,,,n/a,Dock: USB-C VBUS via 2A fuse,+5V,yes,,Spec V1.0 p7; core sch p3/p5
+J2,59,GND,,,,,,n/a,,GND,yes,,Spec V1.0 p6; core sch p3/p5
+J2,60,VDD_5V0 Input,,,,,,n/a,Dock: USB-C VBUS via 2A fuse,+5V,yes,,Spec V1.0 p7; core sch p3/p5

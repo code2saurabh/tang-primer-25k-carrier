@@ -1,0 +1,24 @@
+# vendor documents and CAD files are copyrighted: download them yourself (sources/SOURCES.md)
+sources/*
+!sources/SOURCES.md
+!sources/ball_map_from_schematic.csv
+!sources/sipeed_official/
+sources/sipeed_official/*
+!sources/sipeed_official/dock_layout.json
+
+# routing and DRC scratch, logs, local KiCad state
+kicad/routing/
+kicad/drc.json
+kicad/drc_t.json
+kicad/*.kicad_prl
+kicad/*-backups/
+kicad/fp-info-cache
+*.lck
+tools/logs/
+tools/route_run.log
+fab/positions_kicad.csv
+__pycache__/
+
+# private vendor correspondence
+fab/quote_request_*.md
+fab/reply_*.md

@@ -1,0 +1,388 @@
+** Drc report for carrier_v2.kicad_pcb **
+** Created on 2026-11-25T20:48:04 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 93 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(130.8904 mm, 92.7200 mm): Track [/VCCIO01] on F.Cu, length 1.2805 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(126.8899 mm, 92.7200 mm): Track [/IOT61A] on F.Cu, length 1.2805 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(147.4600 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(147.4600 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(147.5800 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(147.6981 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(147.8162 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(147.9343 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.0524 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.1705 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.2886 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.4067 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.5248 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.6429 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.7610 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.8790 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(148.9971 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.1152 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.2333 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.3514 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.4695 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.5876 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.7057 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.8238 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(149.9419 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(150.0600 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(152.6000 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(155.1400 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(157.6800 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(160.2200 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(162.2700 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(162.8200 mm, 107.9800 mm): Segment of J4 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.2700 mm, 70.9500 mm): Segment on Edge.Cuts
+    @(162.9200 mm, 83.4000 mm): Segment of J10 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(164.2700 mm, 70.9500 mm): Segment on Edge.Cuts
+    @(162.9200 mm, 92.8000 mm): Segment of J10 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(124.6000 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(124.6000 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(124.7200 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(124.8381 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(124.9562 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.0743 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.1924 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.3105 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.4286 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.5467 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.6648 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.7829 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(125.9010 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.0190 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.1371 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.2552 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.3733 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.4914 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.6095 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.7276 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.8457 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(126.9638 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(127.0819 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(127.2000 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(129.7400 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(132.2800 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(134.8200 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(137.3600 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(139.9600 mm, 107.9800 mm): Segment of J5 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(100.2800 mm, 70.9500 mm): Segment on Edge.Cuts
+    @(100.3000 mm, 101.0000 mm): Reference field of J6
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(101.7400 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(101.7400 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(101.8600 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(101.9781 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(102.0962 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(102.2143 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2800 mm, 105.9300 mm): Arc on Edge.Cuts
+    @(102.3324 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(102.4505 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(102.5686 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(102.6867 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(102.8048 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(102.9229 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.0410 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.1590 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.2771 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.3952 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.5133 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.6314 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.7495 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.8676 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(103.9857 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(104.1038 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(104.2219 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(104.3400 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(106.8800 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(109.4200 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(111.9600 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(114.5000 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(102.2801 mm, 107.9300 mm): Segment on Edge.Cuts
+    @(117.1000 mm, 107.9800 mm): Segment of J6 on F.Silkscreen
+[hole_to_hole]: Drilled hole too close to other hole (board setup constraints min 0.5000 mm; actual 0.4036 mm)
+    Rule: board setup constraints; warning
+    @(130.0903 mm, 88.3610 mm): Via [/IOB56A] on F.Cu - B.Cu
+    @(130.3850 mm, 87.8342 mm): Via [/IOT56B] on F.Cu - B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

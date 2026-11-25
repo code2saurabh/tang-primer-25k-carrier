@@ -1,0 +1,8 @@
+Designator,Value,Footprint,Note
+J3,Dock 40-pin (2x20),Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical,"through-hole, solder by hand (or add JLCPCB THT assembly)"
+J4,PMOD J4 (Dock J4),Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal,"through-hole, solder by hand (or add JLCPCB THT assembly)"
+J5,PMOD J5 (Dock J5),Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal,"through-hole, solder by hand (or add JLCPCB THT assembly)"
+J6,PMOD J6 (Dock J6),Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Horizontal,"through-hole, solder by hand (or add JLCPCB THT assembly)"
+J7,JTAG,Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical,"through-hole, solder by hand (or add JLCPCB THT assembly)"
+J8,"UART (GND, FPGA_RX, FPGA_TX)",Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,"through-hole, solder by hand (or add JLCPCB THT assembly)"
+J9,AUX (Dock USB-host pins),Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,"through-hole, solder by hand (or add JLCPCB THT assembly)"
